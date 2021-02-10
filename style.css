@@ -1,0 +1,54 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.logos {
+    text-align: center;
+}
+
+h1.name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+span.slogan {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.logos ul {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.logos ul li {
+    display: inline;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+
+.logos ul li:hover {
+    background: #ccc;
+}
+
+h5.ct {
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+}
