@@ -24,7 +24,40 @@ span.slogan {
     text-transform: uppercase;
     font-size: 1rem;
     color: white;
+}
+
+span.slogan2 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+a.dev {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.cent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.developers {
+    text-align: center;
     margin-bottom: 35px;
+    text-transform: uppercase;
 }
 
 .logos ul {
